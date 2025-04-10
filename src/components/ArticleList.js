@@ -10,6 +10,7 @@ function ArticleList({ posts }) {
           key={article.id}
           title={article.title}
           date={article.date}
+          minutes={article.minutes}
           preview={article.preview}
         />
       ))}
